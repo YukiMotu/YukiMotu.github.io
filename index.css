@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Proza+Libre:wght@700&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Proza+Libre:wght@700&family=Space+Mono&display=swap');
+
+h2 {
+    font-family: 'Proza Libre';
+}
+
+body {
+    font-family: 'Open Sans';
+    max-width: 900px;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+}
+
+.navigation-items {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    font-weight: 600;
+}
+
+.navigation-item {
+    margin: 8px;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.portrait {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+h3 {
+    display: inline;
+}
+
+.project-image {
+    width: 50%;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 8px;
+}
